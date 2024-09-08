@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.div {
+  background-color: aliceblue;
+  padding: 30px 40px;
+  margin: 50px;
+  width: 420px;
+  border-radius: 10px;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+}
