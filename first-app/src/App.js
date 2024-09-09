@@ -1,14 +1,10 @@
-// import logo from "./logo.svg";
-// import john from "./picture/john.jpg";
 import "./App.css";
+import UserProfile from "./UserProfile";
 
-function App(props) {
+function App() {
   return (
-    <div class="div">
-      <img src={props.img} class="img"></img>
-      <h1>{props.name}</h1>
-      <h1>{props.birthday}</h1>
-      <h1>{props.role}</h1>
+    <div className="App">
+      <UserProfile></UserProfile>
     </div>
   );
 }

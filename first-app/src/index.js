@@ -7,13 +7,8 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <h1 class="title">The Beatles</h1>
-    <App
-      img="./picture/john.jpg"
-      name="John Lennon"
-      birthday="October 9, 1940"
-      role="Vocalist/Rhythm Guitarist"
-    />
+    <img src="./picture/beatles.png" alt="logo" className="logo"></img>
+    <App />
   </React.StrictMode>
 );
 

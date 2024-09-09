@@ -13,8 +13,15 @@ code {
     monospace;
 }
 
-.title {
-  color: white;
-  text-align: center;
-  font-size: 70px;
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
